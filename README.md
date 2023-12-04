@@ -28,10 +28,12 @@ Analysis:
     Prevalence-of-eating-disorders-in-males-vs-females: https://www.kaggle.com/datasets/valchovalev/prevalenceofeatingdisordersinmalesvsfemales
 
   Challenges:
+  
     Geo location data was limited
     Prevalence data is dated
     
   Tweet Data:
+  
     2 Groups
     > =  5 Thousand followers
     < 5 Thousand followers
@@ -39,6 +41,7 @@ Analysis:
     Tweet Data: 4,900. Sample significance: 337
     
   Prevalence Data:
+  
     2009-2013
     Eight nations: US, Brazil, Canada, Mexico, Russia, China, Nigeria & India
 
