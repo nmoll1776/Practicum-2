@@ -8,7 +8,12 @@ Eating disorders is defined as a disease that impacts both the mental and physic
 
 Research:
 
-Through sentiment analysis, I wanted to get a sense on feelings around eating disorder social media tweets, as my initial bias is that it is negative.  Additionally, looking into any possible correlation between negative tweet sentiment and those who have over 1 million followers.  From there, and on the second dataset, looking at global prevalence to visually display how large of a problem this is.  I utilized two different data sets from Kaggle around eating disorders. My bias, based on my own journey/experience, and perception of social media impacts on those with eating disorders, is that a majority of social media tweets will be negative, especially with those who have over 1 million followers.  Additional bias includes that prevalence rates are continuing to increase and that there is a correlation between negative tweet sentiment and increasing prevalence rates. Below are the 
+Through sentiment analysis, I wanted to get a sense on feelings around eating disorder social media tweets, as my initial bias is that it is negative.  Additionally, looking into any possible correlation between negative tweet sentiment and those who have over 1 million followers.  From there, and on the second dataset, looking at global prevalence to visually display how large of a problem this is.  I utilized two different data sets from Kaggle around eating disorders. My bias, based on my own journey/experience, and perception of social media impacts on those with eating disorders, is that a majority of social media tweets will be negative, especially with those who have over 1 million followers.  Additional bias includes that prevalence rates are continuing to increase and that there is a correlation between negative tweet sentiment and increasing prevalence rates. 
+
+There were a few challenges to this study around the two datasets.  The first challenge was around the social media tweet dataset and the column that had
+geolocation (longitude/latitude).  Out of the 490,000+ rows, less than .008% had any location attributes.  The rest were either blank or filled with free text.  This shifted my initial hypothesis from testing a relationship on location and and tweet sentiment within this dataset alone.  This was achieved through combining the datasets, tweet and prevalence, but the challenge was not knowing if the timeframes between the two datasets aligned (years).  The second challenge was with the prevalence dataset in that it was dated data.  The latest data, that was complete, was for 2013.  This focused my attention to the time period of 2009-2013.
+
+Below are the 
 
 Research Hypotheses:
 
@@ -20,26 +25,19 @@ H0: There is no significant correlation between 2009-2013 total prevalence popul
 
 H0: There is no significant correlation between 2009-2013 total prevalence population (Russia, Nigeria, India, China) and negative and neutral tweet sentiment.
 
-Analysis:
+Data:
 
-  Datasets:
-
-    Eating Disorder Tweets: https://www.kaggle.com/datasets/jabenitez88/eating-disorders-tweets
-    Prevalence-of-eating-disorders-in-males-vs-females: https://www.kaggle.com/datasets/valchovalev/prevalenceofeatingdisordersinmalesvsfemales
-
-  Challenges:
+Two datasets were used in this study, both from Kaggle.com.  The first dataset was social media tweet data catorigized around the topic of Eating Disorders
+with over 490,000 lines of tweets.  The second dataset was Eating Disorder global prevelance data by year, country, male and female.  I focused my analysis, within the tweet dataset to columns that included the tweets and number of followers.  Within the prevelence dataset, I focused on the columns of total population and prevalence percentage. A random sample was taken from the social media tweet dataset of aound 1% = 4,900 (est.) tweets.  I also focused on followers > and < 5,000 followers. Below are the links to both datasets:
   
-    Geo location data was limited
-    Prevalence data is dated
-    
-  Tweet Data:
+Eating Disorder Tweets: https://www.kaggle.com/datasets/jabenitez88/eating-disorders-tweets
+Prevalence-of-eating-disorders-in-males-vs-females: https://www.kaggle.com/datasets/valchovalev/prevalenceofeatingdisordersinmalesvsfemales
+
+Challenges:
+
+
+
   
-    2 Groups
-    > =  5 Thousand followers
-    < 5 Thousand followers
-    Randomly Sampled (sample_percentage = 1)     
-    Tweet Data: 4,900. Sample significance: 337
-    
   Prevalence Data:
   
     2009-2013
