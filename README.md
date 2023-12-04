@@ -66,7 +66,7 @@ Resources:
 
 Eating Disorder Information: https://www.nationaleatingdisorders.org/what-are-eating-disorders
 
-Emergency/Crisis: Dial 988 or text Crisis Text Line by texting “NEDA” to 741741![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/4386b1c5-f350-43d8-bf92-951b1215fdae)
+Emergency/Crisis: Dial 988 or text Crisis Text Line by texting “NEDA” to 741741
 
 LinkedIn: https://www.linkedin.com/in/nick-molliconi-mba-ms-46b74619/
 
