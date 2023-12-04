@@ -35,7 +35,25 @@ Visualizations:
 
 Wordcloud on tweet data:
 
-![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/caad1e14-9e71-4c5c-9826-0c598f818e5e)
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/4d351197-b25e-4a59-91ee-93130b83a4ef)
+
+Boxplot on Number of Tweet Followers:
+
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/c1d73a4f-466a-45b1-adfe-33eff85eae93)
+
+Prevalence of Eating Disorders:
+
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/db83d91f-16ab-4a37-94aa-d3edd820d96d)
+
+
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/0e2fdb61-2666-48fd-8467-6738744764ed)
+
+
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/272a3289-40e6-4b18-8170-7c3957c2b07e)
+
+
+
+
 
 
 
