@@ -13,7 +13,13 @@ Through sentiment analysis, I wanted to get a sense on feelings around eating di
 There were a few challenges to this study around the two datasets.  The first challenge was around the social media tweet dataset and the column that had
 geolocation (longitude/latitude).  Out of the 490,000+ rows, less than .008% had any location attributes.  The rest were either blank or filled with free text.  This shifted my initial hypothesis from testing a relationship on location and and tweet sentiment within this dataset alone.  This was achieved through combining the datasets, tweet and prevalence, but the challenge was not knowing if the timeframes between the two datasets aligned (years).  The second challenge was with the prevalence dataset in that it was dated data.  The latest data, that was complete, was for 2013.  This focused my attention to the time period of 2009-2013.
 
-Below are the 
+Two datasets were used in this study, both from Kaggle.com.  The first dataset was social media tweet data catorigized around the topic of Eating Disorders
+with over 490,000 lines of tweets.  The second dataset was Eating Disorder global prevelance data by year, country, male and female.  I focused my analysis, within the tweet dataset to columns that included the tweets and number of followers.  Within the prevelence dataset, I focused on the columns of total population and prevalence percentage. A random sample was taken from the social media tweet dataset of aound 1% = 4,900 (est.) tweets.  I also focused on followers > and < 5,000 followers. Within the prevalence dataset, eight (8) nations were selected, based on thier respective higher prevalence rates, compared to other nations, and then grouped between nations in the Western Hemisphere (United States, Canada, Mexico and Brazil) and Eastern Hemisphers(China, India, Nigeria and Russia).
+
+Below are the links to both datasets:
+
+Eating Disorder Tweets: https://www.kaggle.com/datasets/jabenitez88/eating-disorders-tweets
+Prevalence-of-eating-disorders-in-males-vs-females: https://www.kaggle.com/datasets/valchovalev/prevalenceofeatingdisordersinmalesvsfemales
 
 Research Hypotheses:
 
@@ -25,22 +31,11 @@ H0: There is no significant correlation between 2009-2013 total prevalence popul
 
 H0: There is no significant correlation between 2009-2013 total prevalence population (Russia, Nigeria, India, China) and negative and neutral tweet sentiment.
 
-Data:
+Visualizations:
 
-Two datasets were used in this study, both from Kaggle.com.  The first dataset was social media tweet data catorigized around the topic of Eating Disorders
-with over 490,000 lines of tweets.  The second dataset was Eating Disorder global prevelance data by year, country, male and female.  I focused my analysis, within the tweet dataset to columns that included the tweets and number of followers.  Within the prevelence dataset, I focused on the columns of total population and prevalence percentage. A random sample was taken from the social media tweet dataset of aound 1% = 4,900 (est.) tweets.  I also focused on followers > and < 5,000 followers. Below are the links to both datasets:
-  
-Eating Disorder Tweets: https://www.kaggle.com/datasets/jabenitez88/eating-disorders-tweets
-Prevalence-of-eating-disorders-in-males-vs-females: https://www.kaggle.com/datasets/valchovalev/prevalenceofeatingdisordersinmalesvsfemales
+Wordcloud on tweet data:
 
-Challenges:
+![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/caad1e14-9e71-4c5c-9826-0c598f818e5e)
 
-
-
-  
-  Prevalence Data:
-  
-    2009-2013
-    Eight nations: US, Brazil, Canada, Mexico, Russia, China, Nigeria & India
 
 
