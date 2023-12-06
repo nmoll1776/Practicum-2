@@ -8,13 +8,11 @@ Eating disorders is defined as a disease that impacts both the mental and physic
 
 Research:
 
-Through sentiment analysis, I wanted to get a sense of feelings around eating disorder social media tweets, as my initial bias is that it is negative.  Additionally, looking into any possible correlation between negative tweet sentiment and those who have over 1 million followers.  From there, and on the second dataset, looking at global prevalence to visually display how large of a problem this is.  I utilized two different data sets from Kaggle around eating disorders. My bias, based on my own journey/experience, and perception of social media impacts on those with eating disorders, is that a majority of social media tweets will be negative, especially with those who have over 1 million followers.  Additional bias includes that prevalence rates are continuing to increase and that there is a correlation between negative tweet sentiment and increasing prevalence rates. 
+Through sentiment analysis, I wanted to get a sense of feelings around eating disorder social media tweets.  Additionally, looking into any possible correlation between negative tweet sentiment and those who have over 1 million followers.  From there, and on the second dataset, looking at global prevalence to visually display how pervasive this disease is.  I utilized two different data sets from Kaggle around eating disorders. My bias, based on my own journey/experience, and perception of social media impacts on those with eating disorders, is that a majority of social media tweets will be negative, especially with those who have over five (5) thousand followers.  Additional bias includes that prevalence rates are continuing to increase and that there is a correlation between negative tweet sentiment and increasing prevalence rates. 
 
-There were a few challenges to this study around the two datasets.  The first challenge was around the social media tweet dataset and the column that had.
-geolocation (longitude/latitude).  Out of the 490,000+ rows, less than .008% had any location attributes.  The rest were either blank or filled with free text.  This shifted my initial hypothesis from testing a relationship on location and tweet sentiment within this dataset alone.  This was achieved through combining the datasets, tweet and prevalence, but the challenge was not knowing if the timeframes between the two datasets aligned (years).  The second challenge was with the prevalence dataset in that it was dated data.  The latest data, which was complete, was for 2013.  This focused my attention on the time period of 2009-2013.
+There were a few challenges to this study around the two datasets.  The first challenge was around the social media tweet dataset and the specific column that had geolocation (longitude/latitude).  Out of the 490,000+ rows, less than .008% had any location attributes.  The rest were either blank or filled with free text.  This shifted my initial hypothesis from testing a relationship on location and tweet sentiment within this dataset alone.  This was achieved through combining the datasets, tweet and prevalence, but the challenge was, which led to the second challenge, dated data within the prevalence data set.  
 
-Two datasets were used in this study, both from Kaggle.com.  The first dataset was social media tweet data categorized around the topic of eating disorders.
-with over 490,000 lines of tweets.  The second dataset was eating disorder global prevalence data by year, country, male and female.  I focused my analysis, within the tweet dataset to columns that included the tweets and number of followers.  Within the prevalence dataset, I focused on the columns of total population and prevalence percentage. A random sample was taken from the social media tweet dataset of around 1% = 4,900 (est.) tweets.  I also focused on followers > and < 5,000 followers. Within the prevalence dataset, eight (8) nations were selected, based on their respective higher prevalence rates, compared to other nations, and then grouped between nations in the Western Hemisphere (United States, Canada, Mexico and Brazil) and Eastern Hemisphere (China, India, Nigeria and Russia).
+Two datasets were used in this study, both from Kaggle.com.  As stated above, the first dataset was social media tweet data categorized around the topic of eating disorders with over 490,000 lines of tweets.  The second dataset was eating disorder global prevalence data by year, country, male and female.  I focused my analysis, within the tweet dataset to columns that included the tweets and number of followers.  Within the prevalence dataset, I focused on the columns of total population and prevalence percentage between the years of 2009-2013. A random sample was taken from the social media tweet dataset of around 1% = 4,900 (est.) tweets.  I also focused on followers > and < 5,000 followers. Within the prevalence dataset, eight (8) nations were selected, based on their respective higher prevalence rates, compared to other nations, and then grouped between nations in the Western Hemisphere (United States, Canada, Mexico and Brazil) and Eastern Hemisphere (China, India, Nigeria and Russia).
 
 Below are the links to both datasets:
 
@@ -34,6 +32,7 @@ H0: There is no significant correlation between 2009-2013 total prevalence popul
 Visualizations:
 
 Word cloud on tweet data:
+
 
 ![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/4d351197-b25e-4a59-91ee-93130b83a4ef)
 
@@ -61,6 +60,10 @@ Tweet Sentiment Analysis:
 
 Tweet & Sentiment Analysis:
 ![image](https://github.com/nmoll1776/Practicum-2/assets/106831989/7984b016-0e40-42cd-a535-170ea200d702)
+
+Conclusion:
+
+Even though a suprise, based on my stated bias, as stated above, in the results section, I failed to reject any of the null hypotheses as there were not any signifigant relationship between the respective variables.  Possible future analysis could include the use of more recent prevelance data and correlation between sentiment and male/female prevalence rates.
 
 Resources:
 
