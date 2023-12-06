@@ -63,7 +63,7 @@ Tweet & Sentiment Analysis:
 
 Conclusion:
 
-Even though a suprise, based on my stated bias, as stated above, in the results section, I failed to reject any of the null hypotheses as there were not any signifigant relationship between the respective variables.  Possible future analysis could include the use of more recent prevelance data and correlation between sentiment and male/female prevalence rates.
+Even though a surprise, I failed to reject any of the null hypotheses as there was not any significant relationship between the respective variables.  Possible future analysis could include the use of more recent prevalence data and correlation between sentiment and male/female prevalence rates.
 
 Resources:
 
